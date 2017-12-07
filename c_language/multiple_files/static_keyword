@@ -1,0 +1,2 @@
+static keyword that preceeds a global variable or a function limits their 
+scopes to the source file that they are declared in it.

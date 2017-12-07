@@ -1,0 +1,1678 @@
+[
+  {
+    "id": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "name": "SimpleLink CC13x0 SDK",
+    "version": "1.00.00.13",
+    "type": "software",
+    "image": "simplelink_cc13x0_sdk_1_00_00_13/.metadata/.tirex/cc1310fancy.jpg",
+    "description": "Welcome to the SimpleLink CC13x0 SDK",
+    "license": "simplelink_cc13x0_sdk_1_00_00_13/license_simplelink_cc13x0_sdk_1_00_00_13.htm",
+    "allowPartialDownload": false,
+    "devices": [
+      "CC13X0",
+      "CC1310F128",
+      "CC1350F128"
+    ],
+    "metadataVersion": "2.1.0",
+    "_id": "BV3Vdpqgpl0hu0",
+    "package": "SimpleLink CC13x0 SDK",
+    "semver": "1.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "rootCategory": [
+      "Software",
+      "SimpleLink CC13x0 SDK"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "simplelink_cc13x0_sdk_1_00_00_13",
+    "packageOrder": 21,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "1.00.00.13",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__1.00.00.13",
+    "includedFilesForDownload": [
+      "simplelink_cc13x0_sdk_1_00_00_13"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "devtools": [
+      "CC1310 LaunchPad",
+      "CC1350 LaunchPad",
+      "CC1350 SensorTag",
+      "CC1310 Development Kit"
+    ],
+    "devicesVariants": [
+      "CC1310F128",
+      "CC1350F128"
+    ]
+  },
+  {
+    "id": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "name": "SimpleLink CC13x0 SDK",
+    "version": "1.30.00.06",
+    "type": "software",
+    "image": "simplelink_cc13x0_sdk_1_30_00_06/.metadata/.tirex/cc1310fancy.jpg",
+    "description": "Welcome to the SimpleLink CC13x0 SDK",
+    "allowPartialDownload": false,
+    "devices": [
+      "CC13X0",
+      "CC1310F128",
+      "CC1350F128"
+    ],
+    "license": "simplelink_cc13x0_sdk_1_30_00_06/license_simplelink_cc13x0_sdk_1_30_00_06.txt",
+    "dependencies": [
+      {
+        "version": "3.50.00.10",
+        "require": "optional",
+        "refId": "xdctools",
+        "semver": "3.50.0"
+      },
+      {
+        "refId": "com.ti.SIMPLELINK_ACADEMY_CC13X0SDK",
+        "semver": "1.12.0",
+        "require": "optional"
+      }
+    ],
+    "metadataVersion": "2.1.0",
+    "_id": "BV3z9wCnTd8TEs",
+    "package": "SimpleLink CC13x0 SDK",
+    "semver": "1.30.0",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "SimpleLink CC13x0 SDK"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "simplelink_cc13x0_sdk_1_30_00_06",
+    "packageOrder": 22,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "1.30.00.06",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__1.30.00.06",
+    "includedFilesForDownload": [
+      "simplelink_cc13x0_sdk_1_30_00_06"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "devtools": [
+      "CC1310 LaunchPad",
+      "CC1350 LaunchPad",
+      "CC1350 SensorTag",
+      "CC1310 Development Kit"
+    ],
+    "devicesVariants": [
+      "CC1310F128",
+      "CC1350F128"
+    ]
+  },
+  {
+    "id": "com.ti.SIMPLELINK_MSP432_SDK",
+    "name": "SimpleLink MSP432 SDK",
+    "version": "1.20.00.45",
+    "type": "software",
+    "image": "simplelink_msp432_sdk_1_20_00_45/.metadata/.tirex/simplelink_msp432_sdk_logo.png",
+    "description": "SimpleLink MSP432 SDK",
+    "allowPartialDownload": false,
+    "devices": [
+      "MSP432P4XX",
+      "MSP432P401M",
+      "MSP432P401R"
+    ],
+    "dependencies": [
+      {
+        "version": "3.32.01.22",
+        "refId": "xdctools",
+        "semver": "3.32.1"
+      }
+    ],
+    "metadataVersion": "2.1.0",
+    "_id": "BV3lxxRGcFDk9E",
+    "package": "SimpleLink MSP432 SDK",
+    "semver": "1.20.0",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "SimpleLink MSP432 SDK"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "simplelink_msp432_sdk_1_20_00_45",
+    "packageOrder": 23,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_MSP432_SDK__1.20.00.45"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_MSP432_SDK",
+    "packageVersion": "1.20.00.45",
+    "packageUId": "com.ti.SIMPLELINK_MSP432_SDK__1.20.00.45",
+    "includedFilesForDownload": [
+      "simplelink_msp432_sdk_1_20_00_45"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "devtools": [
+      "Code Composer Studio (CCS)",
+      "XDS100v2 JTAG Debug Probe (14-pin TI version)",
+      "XDS100v2 JTAG Debug Probe (20-pin TI version)",
+      "XDS100v2 JTAG Debug Probe (ARM version)",
+      "XDS110 Debug Probe",
+      "XDS200 USB Debug Probe",
+      "XDS560v2 System Trace USB Debug Probe",
+      "UniFlash",
+      "PinMux",
+      "GUI Composer",
+      "MSP-FET",
+      "KEIL ULink",
+      "SEGGER J-Link",
+      "IAR I-JET",
+      "MSP GDB",
+      "MSP432 Adapter for MSP-FET",
+      "IAR Embedded Workbench for ARM",
+      "KEIL MDK-ARM",
+      "ROWLEY CrossWorks for ARM",
+      "MSP432 GCC",
+      "EMPROG ThunderBench for ARM",
+      "MSP-GANG",
+      "MSP432 Adapter for MSP-GANG",
+      "ELPROTRONIC",
+      "SEGGER",
+      "ELNEC",
+      "MSP Flasher",
+      "Bootloader (BSL) for MSP",
+      "MSP432 Security and Update Tool"
+    ],
+    "devicesVariants": [
+      "MSP432P401M",
+      "MSP432P401R"
+    ]
+  },
+  {
+    "id": "com.ti.SIMPLELINK_MSP432_SDK",
+    "name": "SimpleLink MSP432 SDK",
+    "version": "1.30.00.40",
+    "type": "software",
+    "image": "simplelink_msp432_sdk_1_30_00_40/.metadata/.tirex/simplelink_msp432_sdk_logo.png",
+    "description": "SimpleLink MSP432 SDK",
+    "dependencies": [
+      {
+        "version": "3.50.01.12",
+        "refId": "xdctools",
+        "semver": "3.50.1"
+      },
+      {
+        "refId": "com.ti.SIMPLELINK_ACADEMY_MSP432SDK",
+        "semver": "1.12.0",
+        "require": "optional"
+      }
+    ],
+    "allowPartialDownload": false,
+    "devices": [
+      "MSP432P4XX",
+      "MSP432P401M",
+      "MSP432P401R"
+    ],
+    "metadataVersion": "2.1.0",
+    "_id": "BV3HnBsrMlNImk",
+    "package": "SimpleLink MSP432 SDK",
+    "semver": "1.30.0",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "SimpleLink MSP432 SDK"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "simplelink_msp432_sdk_1_30_00_40",
+    "packageOrder": 24,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_MSP432_SDK",
+    "packageVersion": "1.30.00.40",
+    "packageUId": "com.ti.SIMPLELINK_MSP432_SDK__1.30.00.40",
+    "includedFilesForDownload": [
+      "simplelink_msp432_sdk_1_30_00_40"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "devtools": [
+      "Code Composer Studio (CCS)",
+      "XDS100v2 JTAG Debug Probe (14-pin TI version)",
+      "XDS100v2 JTAG Debug Probe (20-pin TI version)",
+      "XDS100v2 JTAG Debug Probe (ARM version)",
+      "XDS110 Debug Probe",
+      "XDS200 USB Debug Probe",
+      "XDS560v2 System Trace USB Debug Probe",
+      "UniFlash",
+      "PinMux",
+      "GUI Composer",
+      "MSP-FET",
+      "KEIL ULink",
+      "SEGGER J-Link",
+      "IAR I-JET",
+      "MSP GDB",
+      "MSP432 Adapter for MSP-FET",
+      "IAR Embedded Workbench for ARM",
+      "KEIL MDK-ARM",
+      "ROWLEY CrossWorks for ARM",
+      "MSP432 GCC",
+      "EMPROG ThunderBench for ARM",
+      "MSP-GANG",
+      "MSP432 Adapter for MSP-GANG",
+      "ELPROTRONIC",
+      "SEGGER",
+      "ELNEC",
+      "MSP Flasher",
+      "Bootloader (BSL) for MSP",
+      "MSP432 Security and Update Tool"
+    ],
+    "devicesVariants": [
+      "MSP432P401M",
+      "MSP432P401R"
+    ]
+  },
+  {
+    "metadataVersion": "3.0.0",
+    "id": "com.ti.SIMPLELINK_CC2640R2_SDK",
+    "name": "SimpleLink CC2640R2 SDK",
+    "version": "1.00.00.22",
+    "type": "software",
+    "image": "simplelink_cc2640r2_sdk_1_00_00_22/.metadata/.tirex/FancyChipShot_CC2640R2F.jpg",
+    "license": "simplelink_cc2640r2_sdk_1_00_00_22/license_simplelink_cc2640r2_sdk_1_00_00_22.txt",
+    "description": "Welcome to the SimpleLink CC2640R2 SDK",
+    "allowPartialDownload": false,
+    "devices": [
+      "CC26X0",
+      "CC2640R2F"
+    ],
+    "_id": "BV3HnJBe6Yj2yc",
+    "package": "SimpleLink CC2640R2 SDK",
+    "semver": "1.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "rootCategory": [
+      "Software",
+      "SimpleLink CC2640R2 SDK"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "simplelink_cc2640r2_sdk_1_00_00_22",
+    "packageOrder": 25,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_CC2640R2_SDK__1.00.00.22"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+    "packageVersion": "1.00.00.22",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK__1.00.00.22",
+    "includedFilesForDownload": [
+      "simplelink_cc2640r2_sdk_1_00_00_22"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "devtools": [
+      "CC2640R2 LaunchPad",
+      "CC2640R2 Remote Control"
+    ],
+    "devicesVariants": [
+      "CC2640R2F"
+    ]
+  },
+  {
+    "metadataVersion": "3.0.0",
+    "id": "com.ti.SIMPLELINK_CC2640R2_SDK",
+    "name": "SimpleLink CC2640R2 SDK",
+    "version": "1.30.00.25",
+    "type": "software",
+    "devices": [
+      "CC26X0",
+      "CC2640R2F"
+    ],
+    "allowPartialDownload": false,
+    "image": "simplelink_cc2640r2_sdk_1_30_00_25/.metadata/.tirex/fancy_cc2640r2.png",
+    "license": "simplelink_cc2640r2_sdk_1_30_00_25/license_simplelink_cc2640r2_sdk_1_30_00_25.txt",
+    "dependencies": [
+      {
+        "version": "3.50.00.10",
+        "require": "optional",
+        "refId": "xdctools",
+        "semver": "3.50.0"
+      },
+      {
+        "refId": "com.ti.SIMPLELINK_ACADEMY_CC2640R2SDK",
+        "semver": "1.12.0",
+        "require": "optional"
+      }
+    ],
+    "description": "Welcome to the SimpleLink CC2640R2 SDK",
+    "_id": "BV33zDms2n2nHA",
+    "package": "SimpleLink CC2640R2 SDK",
+    "semver": "1.30.0",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "SimpleLink CC2640R2 SDK"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "simplelink_cc2640r2_sdk_1_30_00_25",
+    "packageOrder": 26,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+    "packageVersion": "1.30.00.25",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK__1.30.00.25",
+    "includedFilesForDownload": [
+      "simplelink_cc2640r2_sdk_1_30_00_25"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "devtools": [
+      "CC2640R2 LaunchPad",
+      "CC2640R2 Remote Control"
+    ],
+    "devicesVariants": [
+      "CC2640R2F"
+    ]
+  },
+  {
+    "description": "Welcome to the SimpleLink CC32XX SDK",
+    "version": "1.30.01.03",
+    "metadataVersion": "2.1.0",
+    "image": "simplelink_cc32xx_sdk_1_30_01_03/.metadata/.tirex/simplelink.jpg",
+    "id": "com.ti.SIMPLELINK_CC32XX_SDK",
+    "dependencies": [
+      {
+        "require": "optional",
+        "version": "3.50.01.12",
+        "refId": "xdctools",
+        "semver": "3.50.1"
+      },
+      {
+        "refId": "com.ti.SIMPLELINK_ACADEMY_CC32XXSDK",
+        "semver": "1.12.0",
+        "require": "optional"
+      }
+    ],
+    "type": "software",
+    "devices": [
+      "CC3220",
+      "CC3220S",
+      "CC3220SF"
+    ],
+    "allowPartialDownload": false,
+    "name": "SimpleLink CC32XX SDK",
+    "_id": "BV3GEY-x1rosrE",
+    "package": "SimpleLink CC32XX SDK",
+    "semver": "1.30.1",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "SimpleLink CC32XX SDK"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "simplelink_cc32xx_sdk_1_30_01_03",
+    "packageOrder": 27,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_CC32XX_SDK",
+    "packageVersion": "1.30.01.03",
+    "packageUId": "com.ti.SIMPLELINK_CC32XX_SDK__1.30.01.03",
+    "includedFilesForDownload": [
+      "simplelink_cc32xx_sdk_1_30_01_03"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "devtools": [
+      "CC3220S-LAUNCHXL",
+      "CC3220SF-LAUNCHXL"
+    ],
+    "devicesVariants": [
+      "CC3220S",
+      "CC3220SF"
+    ]
+  },
+  {
+    "metadataVersion": "3.0.0",
+    "id": "com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK",
+    "name": "SimpleLink CC2640R2 SDK BLE Example Pack",
+    "version": "1.30.00.27",
+    "type": "software",
+    "devices": [
+      "CC26X0",
+      "CC2640R2F"
+    ],
+    "allowPartialDownload": false,
+    "image": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/.metadata/.tirex/fancy_cc2640r2.png",
+    "license": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27/license_simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27.txt",
+    "dependencies": [
+      {
+        "version": "1.30.00.25",
+        "refId": "com.ti.SIMPLELINK_CC2640R2_SDK",
+        "semver": "1.30.0"
+      }
+    ],
+    "description": "Welcome to the SimpleLink CC2640R2 SDK BLE Example Pack",
+    "rootCategory": [
+      "Software",
+      "SimpleLink SDK Plugins",
+      "Example Packs",
+      "SimpleLink CC2640R2 SDK BLE Example Pack"
+    ],
+    "_id": "BV3j4fKipmv5Vw",
+    "package": "SimpleLink CC2640R2 SDK BLE Example Pack",
+    "semver": "1.30.0",
+    "advanced": {},
+    "categories": [
+      [
+        "Software",
+        "SimpleLink SDK Plugins",
+        "Example Packs"
+      ]
+    ],
+    "packagePath": "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27",
+    "packageOrder": 28,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK",
+    "packageVersion": "1.30.00.27",
+    "packageUId": "com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.30.00.27",
+    "includedFilesForDownload": [
+      "simplelink_cc2640r2_sdk_ble_example_pack_1_30_00_27"
+    ],
+    "fullPaths": [
+      [
+        "Software",
+        "SimpleLink SDK Plugins",
+        "Example Packs"
+      ]
+    ],
+    "devtools": [
+      "CC2640R2 LaunchPad",
+      "CC2640R2 Remote Control"
+    ],
+    "devicesVariants": [
+      "CC2640R2F"
+    ]
+  },
+  {
+    "id": "com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN",
+    "name": "SimpleLink MSP432 SDK Bluetooth Plugin",
+    "version": "1.00.00.84",
+    "type": "software",
+    "image": "simplelink_msp432_sdk_bluetooth_plugin_1_00_00_84/.metadata/.tirex/simplelink_msp432_sdk_logo_ble.png",
+    "description": "SimpleLink MSP432 SDK Bluetooth Plugin",
+    "dependencies": [
+      {
+        "version": "1.20.00.45",
+        "refId": "com.ti.SIMPLELINK_MSP432_SDK",
+        "semver": "1.20.0"
+      }
+    ],
+    "allowPartialDownload": false,
+    "devices": [
+      "MSP432P4XX",
+      "MSP432P401M",
+      "MSP432P401R"
+    ],
+    "metadataVersion": "2.1.0",
+    "rootCategory": [
+      "Software",
+      "SimpleLink SDK Plugins",
+      "Connectivity",
+      "SimpleLink MSP432 SDK Bluetooth Plugin"
+    ],
+    "_id": "BV3AtpVoo5od0U",
+    "package": "SimpleLink MSP432 SDK Bluetooth Plugin",
+    "semver": "1.0.0",
+    "advanced": {},
+    "categories": [
+      [
+        "Software",
+        "SimpleLink SDK Plugins",
+        "Connectivity"
+      ]
+    ],
+    "packagePath": "simplelink_msp432_sdk_bluetooth_plugin_1_00_00_84",
+    "packageOrder": 29,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.00.00.84"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN",
+    "packageVersion": "1.00.00.84",
+    "packageUId": "com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.00.00.84",
+    "includedFilesForDownload": [
+      "simplelink_msp432_sdk_bluetooth_plugin_1_00_00_84"
+    ],
+    "fullPaths": [
+      [
+        "Software",
+        "SimpleLink SDK Plugins",
+        "Connectivity"
+      ]
+    ],
+    "devtools": [
+      "Code Composer Studio (CCS)",
+      "XDS100v2 JTAG Debug Probe (14-pin TI version)",
+      "XDS100v2 JTAG Debug Probe (20-pin TI version)",
+      "XDS100v2 JTAG Debug Probe (ARM version)",
+      "XDS110 Debug Probe",
+      "XDS200 USB Debug Probe",
+      "XDS560v2 System Trace USB Debug Probe",
+      "UniFlash",
+      "PinMux",
+      "GUI Composer",
+      "MSP-FET",
+      "KEIL ULink",
+      "SEGGER J-Link",
+      "IAR I-JET",
+      "MSP GDB",
+      "MSP432 Adapter for MSP-FET",
+      "IAR Embedded Workbench for ARM",
+      "KEIL MDK-ARM",
+      "ROWLEY CrossWorks for ARM",
+      "MSP432 GCC",
+      "EMPROG ThunderBench for ARM",
+      "MSP-GANG",
+      "MSP432 Adapter for MSP-GANG",
+      "ELPROTRONIC",
+      "SEGGER",
+      "ELNEC",
+      "MSP Flasher",
+      "Bootloader (BSL) for MSP",
+      "MSP432 Security and Update Tool"
+    ],
+    "devicesVariants": [
+      "MSP432P401M",
+      "MSP432P401R"
+    ]
+  },
+  {
+    "id": "com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN",
+    "name": "SimpleLink MSP432 SDK Bluetooth Plugin",
+    "version": "1.10.00.42",
+    "type": "software",
+    "image": "simplelink_msp432_sdk_bluetooth_plugin_1_10_00_42/.metadata/.tirex/simplelink_msp432_sdk_logo_ble.png",
+    "description": "SimpleLink MSP432 SDK Bluetooth Plugin",
+    "dependencies": [
+      {
+        "version": "1.30.00.40",
+        "refId": "com.ti.SIMPLELINK_MSP432_SDK",
+        "semver": "1.30.0"
+      }
+    ],
+    "allowPartialDownload": false,
+    "devices": [
+      "MSP432P4XX",
+      "MSP432P401M",
+      "MSP432P401R"
+    ],
+    "metadataVersion": "2.1.0",
+    "rootCategory": [
+      "Software",
+      "SimpleLink SDK Plugins",
+      "Connectivity",
+      "SimpleLink MSP432 SDK Bluetooth Plugin"
+    ],
+    "_id": "BV3Zobc4bxVMR0",
+    "package": "SimpleLink MSP432 SDK Bluetooth Plugin",
+    "semver": "1.10.0",
+    "advanced": {},
+    "categories": [
+      [
+        "Software",
+        "SimpleLink SDK Plugins",
+        "Connectivity"
+      ]
+    ],
+    "packagePath": "simplelink_msp432_sdk_bluetooth_plugin_1_10_00_42",
+    "packageOrder": 30,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN",
+    "packageVersion": "1.10.00.42",
+    "packageUId": "com.ti.SIMPLELINK_MSP432_SDK_BLUETOOTH_PLUGIN__1.10.00.42",
+    "includedFilesForDownload": [
+      "simplelink_msp432_sdk_bluetooth_plugin_1_10_00_42"
+    ],
+    "fullPaths": [
+      [
+        "Software",
+        "SimpleLink SDK Plugins",
+        "Connectivity"
+      ]
+    ],
+    "devtools": [
+      "Code Composer Studio (CCS)",
+      "XDS100v2 JTAG Debug Probe (14-pin TI version)",
+      "XDS100v2 JTAG Debug Probe (20-pin TI version)",
+      "XDS100v2 JTAG Debug Probe (ARM version)",
+      "XDS110 Debug Probe",
+      "XDS200 USB Debug Probe",
+      "XDS560v2 System Trace USB Debug Probe",
+      "UniFlash",
+      "PinMux",
+      "GUI Composer",
+      "MSP-FET",
+      "KEIL ULink",
+      "SEGGER J-Link",
+      "IAR I-JET",
+      "MSP GDB",
+      "MSP432 Adapter for MSP-FET",
+      "IAR Embedded Workbench for ARM",
+      "KEIL MDK-ARM",
+      "ROWLEY CrossWorks for ARM",
+      "MSP432 GCC",
+      "EMPROG ThunderBench for ARM",
+      "MSP-GANG",
+      "MSP432 Adapter for MSP-GANG",
+      "ELPROTRONIC",
+      "SEGGER",
+      "ELNEC",
+      "MSP Flasher",
+      "Bootloader (BSL) for MSP",
+      "MSP432 Security and Update Tool"
+    ],
+    "devicesVariants": [
+      "MSP432P401M",
+      "MSP432P401R"
+    ]
+  },
+  {
+    "devices": [
+      "MSP432P4XX",
+      "MSP432P401M",
+      "MSP432P401R"
+    ],
+    "version": "1.30.00.03",
+    "type": "software",
+    "image": "simplelink_msp432_sdk_wifi_plugin_1_30_00_03/.metadata/.tirex/simplelink.jpg",
+    "id": "com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN",
+    "metadataVersion": "2.1.0",
+    "description": "SimpleLink MSP432 SDK WiFi Plugin",
+    "name": "SimpleLink MSP432 SDK WiFi Plugin",
+    "rootCategory": [
+      "Software",
+      "SimpleLink SDK Plugins",
+      "Connectivity",
+      "SimpleLink MSP432 SDK Wifi Plugin"
+    ],
+    "allowPartialDownload": false,
+    "_id": "BV3DXVcWlKQyog",
+    "package": "SimpleLink MSP432 SDK WiFi Plugin",
+    "semver": "1.30.0",
+    "advanced": {},
+    "dependencies": [],
+    "categories": [
+      [
+        "Software",
+        "SimpleLink SDK Plugins",
+        "Connectivity"
+      ]
+    ],
+    "packagePath": "simplelink_msp432_sdk_wifi_plugin_1_30_00_03",
+    "packageOrder": 31,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN",
+    "packageVersion": "1.30.00.03",
+    "packageUId": "com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.30.00.03",
+    "includedFilesForDownload": [
+      "simplelink_msp432_sdk_wifi_plugin_1_30_00_03"
+    ],
+    "fullPaths": [
+      [
+        "Software",
+        "SimpleLink SDK Plugins",
+        "Connectivity"
+      ]
+    ],
+    "devtools": [
+      "Code Composer Studio (CCS)",
+      "XDS100v2 JTAG Debug Probe (14-pin TI version)",
+      "XDS100v2 JTAG Debug Probe (20-pin TI version)",
+      "XDS100v2 JTAG Debug Probe (ARM version)",
+      "XDS110 Debug Probe",
+      "XDS200 USB Debug Probe",
+      "XDS560v2 System Trace USB Debug Probe",
+      "UniFlash",
+      "PinMux",
+      "GUI Composer",
+      "MSP-FET",
+      "KEIL ULink",
+      "SEGGER J-Link",
+      "IAR I-JET",
+      "MSP GDB",
+      "MSP432 Adapter for MSP-FET",
+      "IAR Embedded Workbench for ARM",
+      "KEIL MDK-ARM",
+      "ROWLEY CrossWorks for ARM",
+      "MSP432 GCC",
+      "EMPROG ThunderBench for ARM",
+      "MSP-GANG",
+      "MSP432 Adapter for MSP-GANG",
+      "ELPROTRONIC",
+      "SEGGER",
+      "ELNEC",
+      "MSP Flasher",
+      "Bootloader (BSL) for MSP",
+      "MSP432 Security and Update Tool"
+    ],
+    "devicesVariants": [
+      "MSP432P401M",
+      "MSP432P401R"
+    ]
+  },
+  {
+    "metadataVersion": "2.1.0",
+    "type": "software",
+    "id": "c2000ware_software_package",
+    "name": "C2000Ware",
+    "version": "1.00.00.00",
+    "license": "C2000Ware_1_00_00_00_Software/.metadata/.tirex/license/license.txt",
+    "image": "C2000Ware_1_00_00_00_Software/.metadata/.tirex/package/c2000ware.png",
+    "allowPartialDownload": false,
+    "devices": [],
+    "description": "Welcome to C2000Ware! C2000Ware for C2000 microcontrollers is a cohesive set of development software and documentation designed to minimize software development time. From device-specific drivers and libraries to device peripheral examples, C2000Ware provides a solid foundation to begin development and evaluation of your product.",
+    "_id": "BV34lqRww-SdHE",
+    "package": "C2000Ware",
+    "semver": "1.0.0",
+    "advanced": {},
+    "dependencies": [],
+    "rootCategory": [
+      "Software",
+      "C2000Ware"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "C2000Ware_1_00_00_00_Software",
+    "packageOrder": 36,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "c2000ware_software_package__1.00.00.00"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "c2000ware_software_package",
+    "packageVersion": "1.00.00.00",
+    "packageUId": "c2000ware_software_package__1.00.00.00",
+    "includedFilesForDownload": [
+      "C2000Ware_1_00_00_00_Software"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "devicesVariants": []
+  },
+  {
+    "id": "msp430ware",
+    "installFolder": {
+      "mac": "msp/MSP430Ware_3_60_00_10",
+      "linux": "msp/MSP430Ware_3_60_00_10",
+      "win": "msp/MSP430Ware_3_60_00_10"
+    },
+    "version": "3.60.00.10",
+    "name": "MSP430Ware",
+    "description": "Quicken your development time with MSPWare, a tool for navigating the available resources that support MSP430 and MSP432 devices. Using this GUI or clicking through the folder tree to the left, we offer code examples, software libraries, datasheets and other resources - all at the tip of your fingers.",
+    "image": "msp/MSP430Ware_3_60_00_10/~TIRex/MSPWare/assets/photos/msp430ware.png",
+    "_id": "BV3VVs0X4TJNKQ",
+    "package": "MSP430Ware",
+    "semver": "3.60.0",
+    "advanced": {},
+    "dependencies": [],
+    "coreDependencies": [
+      {
+        "refId": "ai7pM_t9N9cslw",
+        "version": "3.60.00.10",
+        "semver": "3.60.0"
+      }
+    ],
+    "rootCategory": [
+      "Software",
+      "MSP430Ware"
+    ],
+    "allowPartialDownload": false,
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "msp/MSP430Ware_3_60_00_10",
+    "packageOrder": 37,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "msp430ware__3.60.00.10"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "msp430ware",
+    "packageVersion": "3.60.00.10",
+    "packageUId": "msp430ware__3.60.00.10",
+    "includedFilesForDownload": [
+      "msp/MSP430Ware_3_60_00_10"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "allowPartialDownload": false,
+    "version": "2.1.3.156",
+    "name": "TM4C ARM Cortex-M4F MCU",
+    "id": "tm4c",
+    "license": "TivaWare_C_Series-2.1.3.156/EULA.txt",
+    "description": "Texas Instruments' TM4C12x MCUs offer the industry’s popular ARM® Cortex®-M4F core with scalable memory and package options, unparalleled connectivity peripherals, advanced application functions, industry-leading analog integration, and extensive software solutions. In addition, Texas Instruments offers a complete solution to get to market quickly, with evaluation and development boards, white papers, application notes, an easy-to-use peripheral driver library, and a strong support, sales, and distributor network.</p><p>For more information, go to <a target='_blank' href='http://www.ti.com/lsds/ti/microcontrollers_16-bit_32-bit/c2000_performance/control_automation/tm4c12x/overview.page'>TM4C12x MCUs</a>.</p><p><br><font size=2>LaunchPad, BoosterPack, and TivaWare are trademarks of Texas Instruments.<br>ARM and Cortex are registered trademarks of ARM Limited.<br>microSD is a registered trademark of SD-3C, LLC.<br>OLED is a registered trademark of LG Electronics Inc. Corporation.<br>All other trademarks are the property of their respective owners.</font></p>",
+    "image": "TivaWare_C_Series-2.1.3.156/.metadata/images/TivaWare.png",
+    "_id": "BV3EsF-KuytKGM",
+    "package": "TM4C ARM Cortex-M4F MCU",
+    "semver": "2.1.3",
+    "advanced": {},
+    "dependencies": [],
+    "rootCategory": [
+      "Software",
+      "TM4C ARM Cortex-M4F MCU"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "TivaWare_C_Series-2.1.3.156",
+    "packageOrder": 38,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "tm4c__2.1.3.156"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "tm4c",
+    "packageVersion": "2.1.3.156",
+    "packageUId": "tm4c__2.1.3.156",
+    "includedFilesForDownload": [
+      "TivaWare_C_Series-2.1.3.156"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "cc3200sdk",
+    "name": "CC3200 WiFi",
+    "version": "1.1.0.0",
+    "image": "CC3200SDK_1.1.0/simplelink.jpg",
+    "dependencies": [
+      {
+        "version": "2.01.00.03",
+        "require": "optional",
+        "refId": "tirtos_simplelink",
+        "semver": "2.1.0"
+      },
+      {
+        "version": "3.30.04.52",
+        "require": "optional",
+        "refId": "xdctools",
+        "semver": "3.30.4"
+      }
+    ],
+    "allowPartialDownload": false,
+    "description": "Welcome to CC3200 SimpleLink&trade; WiFi! Navigate the available resources that support CC3200 device.Using this GUI or clicking through the folder tree to the left, we offer code examples, software libraries, design files and other resources - all at the tip of your fingers.<br><br>Select <em>CC32xx SimpleLink WiFi</em> -> <em>Development Tools</em> -> <em>CC3200-LAUNCHXL</em> for guide on Getting Started with CCS Cloud.",
+    "_id": "BV3VHroeEUpEFI",
+    "package": "CC3200 WiFi",
+    "semver": "1.1.0",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "CC3200 WiFi"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "CC3200SDK_1.1.0",
+    "packageOrder": 39,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "cc3200sdk__1.1.0.0"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "cc3200sdk",
+    "packageVersion": "1.1.0.0",
+    "packageUId": "cc3200sdk__1.1.0.0",
+    "includedFilesForDownload": [
+      "CC3200SDK_1.1.0"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "sitara",
+    "name": "Sitara",
+    "version": "1.02.00.00",
+    "image": "Sitara_1_02_00_00/assets/photos/sitara_products.png",
+    "allowPartialDownload": false,
+    "description": "Welcome to Sitara Resource Explorer! Quicken your development time with Sitara Resource Explorer, a tool for navigating the available resources that support Sitara devices. Using this GUI or clicking through the folder tree to the left, we offer software libraries, datasheets, app notes and other resources - all at the tip of your fingers.",
+    "_id": "BV3bCP6VaXw1-w",
+    "package": "Sitara",
+    "semver": "1.2.0",
+    "advanced": {},
+    "dependencies": [],
+    "rootCategory": [
+      "Software",
+      "Sitara"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "Sitara_1_02_00_00",
+    "packageOrder": 40,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "sitara__1.02.00.00"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "sitara",
+    "packageVersion": "1.02.00.00",
+    "packageUId": "sitara__1.02.00.00",
+    "includedFilesForDownload": [
+      "Sitara_1_02_00_00"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "tirtos_msp43X",
+    "name": "TI-RTOS for MSP430",
+    "version": "2.20.00.06",
+    "image": "tirtos_msp43x_2_20_00_06/docs/icons/tirtos_msp43x.png",
+    "dependencies": [
+      {
+        "version": "3.32.00.06",
+        "require": "optional",
+        "refId": "xdctools",
+        "semver": "3.32.0"
+      }
+    ],
+    "allowPartialDownload": false,
+    "description": "<i>Important Note: This software package is intended for MSP430 users only. If you are interested in using TI RTOS with the SimpleLink MSP432 MCUs, refer to the SimpleLink MSP432 SDK folder in TI Resource Explorer. </i><br /><br />TI-RTOS accelerates development schedules by eliminating the need to create basic system software functions from scratch. TI-RTOS scales from a real-time multitasking kernel - TI-RTOS Kernel (formerly known as SYS/BIOS) - to a complete RTOS solution including additional middleware components, device drivers and power management. The combination of TI-RTOS power management and TI's ultra low-power MCUs enables developers to design applications with much longer battery life. By providing essential system software components pre-tested and pre-integrated, TI-RTOS enables developers to focus on differentiating their application.",
+    "_id": "BV3k5nCmAf82Rc",
+    "package": "TI-RTOS for MSP430",
+    "semver": "2.20.0",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "TI-RTOS for MSP430"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "tirtos_msp43x_2_20_00_06",
+    "packageOrder": 41,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "tirtos_msp43X__2.20.00.06"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "tirtos_msp43X",
+    "packageVersion": "2.20.00.06",
+    "packageUId": "tirtos_msp43X__2.20.00.06",
+    "includedFilesForDownload": [
+      "tirtos_msp43x_2_20_00_06"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "tirtos_cc13xx_cc26xx",
+    "name": "TI-RTOS for CC2650",
+    "version": "2.21.00.06",
+    "image": "tirtos_cc13xx_cc26xx_2_21_00_06/docs/icons/tirtos_cc13xx_cc26xx.png",
+    "dependencies": [
+      {
+        "version": "3.32.00.06",
+        "require": "optional",
+        "refId": "xdctools",
+        "semver": "3.32.0"
+      }
+    ],
+    "allowPartialDownload": false,
+    "description": "TI-RTOS accelerates development schedules by eliminating the need to create basic system software functions from scratch. TI-RTOS scales from a real-time multitasking kernel - TI-RTOS Kernel (formerly known as SYS/BIOS) - to a complete RTOS solution including additional middleware components, device drivers and power management. The combination of TI-RTOS power management and TI's ultra low-power MCUs enables developers to design applications with much longer battery life. By providing essential system software components pre-tested and pre-integrated, TI-RTOS enables developers to focus on differentiating their application.",
+    "_id": "BV3sZPW-LcqP7o",
+    "package": "TI-RTOS for CC2650",
+    "semver": "2.21.0",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "TI-RTOS for CC2650"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "tirtos_cc13xx_cc26xx_2_21_00_06",
+    "packageOrder": 42,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "tirtos_cc13xx_cc26xx__2.21.00.06"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "tirtos_cc13xx_cc26xx",
+    "packageVersion": "2.21.00.06",
+    "packageUId": "tirtos_cc13xx_cc26xx__2.21.00.06",
+    "includedFilesForDownload": [
+      "tirtos_cc13xx_cc26xx_2_21_00_06"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "tirtos_tivac",
+    "name": "TI-RTOS for TivaC",
+    "version": "2.16.00.08",
+    "image": "tirtos_tivac_2_16_00_08/docs/icons/tirtos_tivac.png",
+    "dependencies": [
+      {
+        "version": "3.32.00.06",
+        "require": "optional",
+        "refId": "xdctools",
+        "semver": "3.32.0"
+      }
+    ],
+    "allowPartialDownload": false,
+    "description": "TI-RTOS accelerates development schedules by eliminating the need to create basic system software functions from scratch. TI-RTOS scales from a real-time multitasking kernel - TI-RTOS Kernel (formerly known as SYS/BIOS) - to a complete RTOS solution including additional middleware components, device drivers and power management. The combination of TI-RTOS power management and TI's ultra low-power MCUs enables developers to design applications with much longer battery life. By providing essential system software components pre-tested and pre-integrated, TI-RTOS enables developers to focus on differentiating their application.",
+    "_id": "BV31MBbmXyzjVo",
+    "package": "TI-RTOS for TivaC",
+    "semver": "2.16.0",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "TI-RTOS for TivaC"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "tirtos_tivac_2_16_00_08",
+    "packageOrder": 43,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "tirtos_tivac__2.16.00.08"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "tirtos_tivac",
+    "packageVersion": "2.16.00.08",
+    "packageUId": "tirtos_tivac__2.16.00.08",
+    "includedFilesForDownload": [
+      "tirtos_tivac_2_16_00_08"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "tirtos_simplelink",
+    "name": "TI-RTOS for Simplelink",
+    "version": "2.01.00.03",
+    "dependencies": [
+      {
+        "version": "3.30.04.52",
+        "require": "optional",
+        "refId": "xdctools",
+        "semver": "3.30.4"
+      }
+    ],
+    "allowPartialDownload": false,
+    "image": "tirtos_simplelink_2_01_00_03/docs/icons/tirtos_simplelink.png",
+    "description": "TI-RTOS for SimpleLink Wireless MCUs product",
+    "_id": "BV3S6aJIzKlfqE",
+    "package": "TI-RTOS for Simplelink",
+    "semver": "2.1.0",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "TI-RTOS for Simplelink"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "tirtos_simplelink_2_01_00_03",
+    "packageOrder": 44,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "tirtos_simplelink__2.01.00.03"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "tirtos_simplelink",
+    "packageVersion": "2.01.00.03",
+    "packageUId": "tirtos_simplelink__2.01.00.03",
+    "includedFilesForDownload": [
+      "tirtos_simplelink_2_01_00_03"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "tirtos_simplelink",
+    "name": "TI-RTOS for Simplelink",
+    "version": "2.13.00.06",
+    "dependencies": [
+      {
+        "version": "3.31.01.33",
+        "require": "optional",
+        "refId": "xdctools",
+        "semver": "3.31.1"
+      }
+    ],
+    "allowPartialDownload": false,
+    "image": "tirtos_simplelink_2_13_00_06/docs/icons/tirtos_simplelink.png",
+    "description": "TI-RTOS for SimpleLink Wireless MCUs product",
+    "_id": "BV3hKXRuab106A",
+    "package": "TI-RTOS for Simplelink",
+    "semver": "2.13.0",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "TI-RTOS for Simplelink"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "tirtos_simplelink_2_13_00_06",
+    "packageOrder": 45,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "tirtos_simplelink__2.13.00.06"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "tirtos_simplelink",
+    "packageVersion": "2.13.00.06",
+    "packageUId": "tirtos_simplelink__2.13.00.06",
+    "includedFilesForDownload": [
+      "tirtos_simplelink_2_13_00_06"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "tirtos_simplelink",
+    "name": "TI-RTOS for Simplelink",
+    "version": "2.13.01.09",
+    "dependencies": [
+      {
+        "version": "3.31.01.33",
+        "require": "optional",
+        "refId": "xdctools",
+        "semver": "3.31.1"
+      }
+    ],
+    "allowPartialDownload": false,
+    "image": "tirtos_simplelink_2_13_01_09/docs/icons/tirtos_simplelink.png",
+    "description": "TI-RTOS for SimpleLink Wireless MCUs product",
+    "_id": "BV3qj9BspJGmu0",
+    "package": "TI-RTOS for Simplelink",
+    "semver": "2.13.1",
+    "advanced": {},
+    "rootCategory": [
+      "Software",
+      "TI-RTOS for Simplelink"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "tirtos_simplelink_2_13_01_09",
+    "packageOrder": 46,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "tirtos_simplelink__2.13.01.09"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "tirtos_simplelink",
+    "packageVersion": "2.13.01.09",
+    "packageUId": "tirtos_simplelink__2.13.01.09",
+    "includedFilesForDownload": [
+      "tirtos_simplelink_2_13_01_09"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "xdctools",
+    "name": "XDCTools",
+    "version": "3.30.04.52",
+    "image": "xdctools_3_30_04_52_core/tirex_logo_256.png",
+    "allowPartialDownload": false,
+    "_id": "BV3sO0Qk-X9ZOQ",
+    "package": "XDCTools",
+    "semver": "3.30.4",
+    "advanced": {},
+    "dependencies": [],
+    "rootCategory": [
+      "Software",
+      "XDCTools"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "xdctools_3_30_04_52_core",
+    "packageOrder": 47,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "xdctools__3.30.04.52"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "xdctools",
+    "packageVersion": "3.30.04.52",
+    "packageUId": "xdctools__3.30.04.52",
+    "includedFilesForDownload": [
+      "xdctools_3_30_04_52_core"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "xdctools",
+    "name": "XDCTools",
+    "version": "3.31.01.33",
+    "installFolder": {
+      "win": "xdctools_3_31_01_33_core"
+    },
+    "image": "xdctools_3_31_01_33_core/tirex_logo_256.png",
+    "_id": "BV3r0KdynnWaEA",
+    "package": "XDCTools",
+    "semver": "3.31.1",
+    "advanced": {},
+    "dependencies": [],
+    "rootCategory": [
+      "Software",
+      "XDCTools"
+    ],
+    "allowPartialDownload": false,
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "xdctools_3_31_01_33_core",
+    "packageOrder": 48,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "xdctools__3.31.01.33"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "xdctools",
+    "packageVersion": "3.31.01.33",
+    "packageUId": "xdctools__3.31.01.33",
+    "includedFilesForDownload": [
+      "xdctools_3_31_01_33_core"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software",
+    "local": "full",
+    "localPackagePath": "/Applications/ti/xdctools_3_31_01_33_core"
+  },
+  {
+    "id": "xdctools",
+    "name": "XDCTools",
+    "version": "3.32.00.06",
+    "allowPartialDownload": false,
+    "image": "xdctools_3_32_00_06_core/tirex_logo_256.png",
+    "_id": "BV3SpIzwnvN1Qs",
+    "package": "XDCTools",
+    "semver": "3.32.0",
+    "advanced": {},
+    "dependencies": [],
+    "rootCategory": [
+      "Software",
+      "XDCTools"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "xdctools_3_32_00_06_core",
+    "packageOrder": 49,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "xdctools__3.32.00.06"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "xdctools",
+    "packageVersion": "3.32.00.06",
+    "packageUId": "xdctools__3.32.00.06",
+    "includedFilesForDownload": [
+      "xdctools_3_32_00_06_core"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  },
+  {
+    "id": "xdctools",
+    "name": "XDCTools",
+    "version": "3.32.01.22",
+    "allowPartialDownload": false,
+    "image": "xdctools_3_32_01_22_core/tirex_logo_256.png",
+    "_id": "BV3JD0IgoxoFGA",
+    "package": "XDCTools",
+    "semver": "3.32.1",
+    "advanced": {},
+    "dependencies": [],
+    "rootCategory": [
+      "Software",
+      "XDCTools"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "xdctools_3_32_01_22_core",
+    "packageOrder": 50,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "xdctools__3.32.01.22"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "xdctools",
+    "packageVersion": "3.32.01.22",
+    "packageUId": "xdctools__3.32.01.22",
+    "includedFilesForDownload": [
+      "xdctools_3_32_01_22_core"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software",
+    "local": "full",
+    "localPackagePath": "/Applications/ti/xdctools_3_32_01_22_core"
+  },
+  {
+    "id": "xdctools",
+    "name": "XDCTools",
+    "version": "3.50.00.10",
+    "allowPartialDownload": false,
+    "image": "tirex_logo_256.png",
+    "_id": "BV3-Xf89AkTME4",
+    "package": "XDCTools",
+    "semver": "3.50.0",
+    "advanced": {},
+    "dependencies": [],
+    "rootCategory": [
+      "Software",
+      "XDCTools"
+    ],
+    "categories": [
+      [
+        "Software"
+      ]
+    ],
+    "packagePath": "xdctools_3_50_00_10_core",
+    "packageOrder": 51,
+    "resourceType": "packageOverview",
+    "includedResources": [
+      {
+        "package": "xdctools__3.50.00.10"
+      }
+    ],
+    "includedFiles": [
+      "."
+    ],
+    "packageId": "xdctools",
+    "packageVersion": "3.50.00.10",
+    "packageUId": "xdctools__3.50.00.10",
+    "includedFilesForDownload": [
+      "xdctools_3_50_00_10_core"
+    ],
+    "fullPaths": [
+      [
+        "Software"
+      ]
+    ],
+    "type": "software"
+  }
+]
