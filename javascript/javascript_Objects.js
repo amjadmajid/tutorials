@@ -41,7 +41,7 @@ var jaguar = {
 console.log(jaguar);
 
 
-/* Object constructor: declare a class and instantiate objects
+/* Object constructor: declare a prototype and instantiate objects
 -------------------------------------------------------------*/
 function Car(name, color, model){
   this.name = name;
