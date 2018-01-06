@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title> Ajax Text </title>
+</head>
+<body>
+  <p id="address"></p>
+  <button id="ajax-button" type ="button"> submit</button>
+  <input type="text" id="zipcode"></input>
+
+<script>
+  var apiLink = "https://maps.googleapis.com/maps/api/geocode/json?address=";
+
+  target = document.getElementById("address");
+
+  function getAddress(){
+
+    var zip = document.getElementById("zipcode").value;
+    apiLink +=zip;
+
+    console.log(apiLink);
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', apiLink, true);
+
+    xhr.onreadystatechange = function(){
+
+      console.log( 'readyState:', xhr.readyState);
+
+      if(xhr.readyState < 4){
+        target.innerHTML ='loading...';
+      }
+      if(xhr.readyState == 4 && xhr.status ==200){
+        var jsonResp = JSON.parse(xhr.responseText);
+        var formattedAddress = jsonResp.results[0].formatted_address;
+        target.innerHTML = formattedAddress;
+      }
+    }
+    xhr.send();
+
+  }
+
+  var button = document.getElementById("ajax-button");
+  button.addEventListener("click", getAddress);
+
+</script>
+
+</body>
+
+</html>
