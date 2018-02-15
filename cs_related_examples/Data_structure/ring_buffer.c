@@ -8,17 +8,26 @@
 #include <stdlib.h>                 // needed for the size_t and malloc
 #include <stdio.h>                  // needed for the printf
 
-/*
- * Declare a data type that holds the charactristics of a ring buffer
- */
+/** variables declations and definitions*/
+
+/* Declare a data type that holds the charactristics of a ring buffer */
 typedef struct {
     uint8_t *buffer;                // a pointer to hold the address to the ring buffer
     size_t size;                    // `size_t` is used here to represent buffer 
                                     // object size in byte. `malloc` expects this data type
-    size_t data_len;              // capture the length of the valid 
+    size_t data_len;                // capture the length of the valid 
     size_t head;                    // the start index of the valid data
     size_t tail;                    // the end index of the valid data
 }rbuf_t;
+/*-----------------------------------------------------------------------------*/
+
+/** functions prototyping */
+void _advance_idx(size_t *idx, size_t *size);
+bool rbuf_empty(rbuf_t* rbuf);
+bool rbuf_full(rbuf_t *rbuf);
+void rbuf_put( rbuf_t *rbuf, uint8_t data);
+/*------------------------------------------------------------------------------*/ 
+
 
 /** _advance_idx:
  * It is a helper function that advances an index of a ring buffer and set it to
@@ -104,6 +113,7 @@ bool rbuf_get(rbuf_t * rbuf, uint8_t *data)
     _advance_idx(&rbuf->tail, &rbuf->size);
     return true;
 }
+/*-----------------------------------------------------------------------------*/ 
 
 int main()
 {
