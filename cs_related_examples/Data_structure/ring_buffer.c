@@ -78,7 +78,7 @@ void rbuf_put( rbuf_t *rbuf, uint8_t data)
     // insert the data
     rbuf->buffer[rbuf->head] = data;
     // check if old data is overwritten
-    if(rbuf->head == rbuf->tail)
+    if(rbuf_full(rbuf))
     {
         // advances the tail index to point to the old data
         // buffer size equals (max index + 1) 
@@ -115,24 +115,127 @@ bool rbuf_get(rbuf_t * rbuf, uint8_t *data)
 }
 /*-----------------------------------------------------------------------------*/ 
 
+
+/** rbuf_write:
+ * write many bytes to the buffer
+ *
+ * @param *rbuf     pointer to a ring buffer 
+ * @param numBytes  the number of bytes to be inseted
+ * @param data      a pointer to byte of data to be inserted
+ */ 
+void rbuf_write( rbuf_t *rbuf, uint8_t numBytes, uint8_t *data)
+{
+    while(numBytes--)
+    {
+        rbuf_put(rbuf, *data);
+        data++;
+    }
+}
+
+/** rbuf_read:
+ * read many bytes to the buffer
+ *
+ * @param *rbuf     pointer to a ring buffer
+ * @param data      a byte to be read from the buffer
+ */
+void rbuf_read( rbuf_t *rbuf, uint8_t numBytes, uint8_t *data)
+{
+    while( (numBytes--) && rbuf_get(rbuf, data))
+    {
+        data++;
+    }
+}
+
 int main()
 {
    rbuf_t *rbuf;
+   rbuf->data_len=0;
    rbuf->head = 0;
    rbuf->tail = 0;
    rbuf->size = 10;
    rbuf->buffer = malloc(rbuf->size);
-   
-   for(uint8_t i = 0; i < 10; i++)
+   printf(" insert data\n");
+   for(uint8_t i = 0; i < 7 ; i++)
    {
+    printf("->%d\n", i);
     rbuf_put(rbuf, i);
    }
 
+    printf("---------------\n");
+   printf("data_len: %lu \n", rbuf->data_len);
+   printf("tail  %lu \n", rbuf->tail);
+   printf("head  %lu \n", rbuf->head);
+   printf("size : %lu \n", rbuf->size);
+
+    printf("----------------\n");
     uint8_t data;
-   for(uint8_t i = 0; i < 10; i++)
+   for(uint8_t i = 0; i < 9; i++)
    {
-    rbuf_get(rbuf, &data);
+    if( rbuf_get(rbuf, &data))
+    {
+        printf("%d \n", data);
+    }
+   }
+
+    printf("----------------\n");
+   printf("data_len: %lu \n", rbuf->data_len);
+   printf("tail  %lu \n", rbuf->tail);
+   printf("head  %lu \n", rbuf->head);
+   printf("size : %lu \n", rbuf->size);
+
+   printf("----------------\n");
+   printf(" insert data\n");
+   for(uint8_t i = 0; i < 6; i++)
+   {
+    printf("->%d\n", i);
+    rbuf_put(rbuf, i);
+   }
+
+    printf("----------------\n");
+   printf("data_len: %lu \n", rbuf->data_len);
+   printf("tail  %lu \n", rbuf->tail);
+   printf("head  %lu \n", rbuf->head);
+   printf("size : %lu \n", rbuf->size);
+
+    printf("----------------\n");
+   for(uint8_t i = 0; i < 9; i++)
+   {
+    if(!rbuf_get(rbuf, &data))
+    {
+        break;
+    }
     printf("%d \n", data);
    }
+
 return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
