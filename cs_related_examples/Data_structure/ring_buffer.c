@@ -113,8 +113,20 @@ bool rbuf_get(rbuf_t * rbuf, uint8_t *data)
     _advance_idx(&rbuf->tail, &rbuf->size);
     return true;
 }
-/*-----------------------------------------------------------------------------*/ 
 
+bool rbuf_search( rbuf_t *rbuf, uint8_t word)
+{
+    uint16_t cntr = 0;
+    while( cntr < rbuf->data_len)
+    {
+        if ( word == rbuf->buffer[(rbuf->tail) + cntr])
+        {
+            return true;
+        }
+        cntr++;
+    }
+return false;
+}
 
 /** rbuf_write:
  * write many bytes to the buffer
@@ -148,7 +160,7 @@ void rbuf_read( rbuf_t *rbuf, uint8_t numBytes, uint8_t *data)
 
 int main()
 {
-   rbuf_t *rbuf;
+   rbuf_t *rbuf = malloc(sizeof(rbuf_t));
    rbuf->data_len=0;
    rbuf->head = 0;
    rbuf->tail = 0;
@@ -198,7 +210,7 @@ int main()
    printf("size : %lu \n", rbuf->size);
 
     printf("----------------\n");
-   for(uint8_t i = 0; i < 9; i++)
+   for(uint8_t i = 0; i < 3; i++)
    {
     if(!rbuf_get(rbuf, &data))
     {
@@ -207,6 +219,21 @@ int main()
     printf("%d \n", data);
    }
 
+
+    printf("----------------\n");
+    uint8_t data_arr[] = {0,1,2,3,4,5,6,7,8};
+
+   for(uint8_t i = 0; i < 9; i++)
+   {
+    if(rbuf_search(rbuf, data_arr[i]))
+    {
+        printf("found\n");
+    }
+    else
+    {
+        printf("not found\n");
+    }
+   }
 return 0;
 }
 
