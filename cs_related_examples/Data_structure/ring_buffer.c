@@ -114,6 +114,13 @@ bool rbuf_get(rbuf_t * rbuf, uint8_t *data)
     return true;
 }
 
+/** rbuf_search:
+ * search a buffer for a certain word
+ *
+ * @param *rbuf     pointer to a ring buffer 
+ * @param word      a byte of data
+ * @return bool     "true" if the word is found, else "false"
+ */
 bool rbuf_search( rbuf_t *rbuf, uint8_t word)
 {
     uint16_t cntr = 0;
@@ -158,9 +165,10 @@ void rbuf_read( rbuf_t *rbuf, uint8_t numBytes, uint8_t *data)
     }
 }
 
+rbuf_t *rbuf = NULL;
 int main()
 {
-   rbuf_t *rbuf = malloc(sizeof(rbuf_t));
+   rbuf = malloc(sizeof(rbuf_t));
    rbuf->data_len=0;
    rbuf->head = 0;
    rbuf->tail = 0;
